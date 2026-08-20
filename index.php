@@ -5,18 +5,20 @@ include_once 'includes/navbar.php';
 ?>
 
 <!-- Hero Section -->
-<section id="inicio" class="bg-primary text-white py-5">
-    <div class="container py-4">
-        <div class="row align-items-center g-4">
-            <div class="col-lg-7">
-                <span class="badge bg-light text-primary mb-2 fw-semibold">Convocatoria Abierta</span>
-                <h1 class="display-5 fw-bold mb-3">Impulsa tu carrera con nuestros cursos especializados</h1>
-                <p class="lead mb-4">Inscríbete hoy en nuestros programas diseñados por expertos del sector. Modalidad 100% flexible y certificada.</p>
-                <a href="#inscripcion" class="btn btn-light btn-lg text-primary fw-bold me-2 mb-2">Inscribirme ahora</a>
-                <a href="#cursos" class="btn btn-outline-light btn-lg mb-2">Ver catálogo</a>
-            </div>
-            <div class="col-lg-5 text-center">
-                <img src="https://picsum.photos/500/350" alt="Estudiantes" class="img-fluid rounded-3 shadow">
+<!-- Hero Section con imagen de fondo -->
+<section id="inicio" class="position-relative text-white py-5" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('img/fondo.jpg') no-repeat center center / cover;">
+    <div class="container py-5">
+        <div class="row align-items-center g-4 my-lg-4">
+            <div class="col-lg-8 mx-auto text-center">
+                <span class="badge bg-primary text-white mb-3 px-3 py-2 fw-semibold rounded-pill">Convocatoria Abierta</span>
+                <h1 class="display-4 fw-bold mb-3 text-shadow">Impulsa tu carrera con nuestros cursos especializados</h1>
+                <p class="lead mb-4 text-light opacity-90 mx-auto" style="max-width: 700px;">
+                    Inscríbete hoy en nuestros programas diseñados por expertos del sector. Modalidad 100% flexible, tutoría personalizada y certificación profesional.
+                </p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="#inscripcion" class="btn btn-primary btn-lg fw-bold px-4 shadow">Inscribirme ahora</a>
+                    <a href="#cursos" class="btn btn-outline-light btn-lg px-4">Ver catálogo</a>
+                </div>
             </div>
         </div>
     </div>
