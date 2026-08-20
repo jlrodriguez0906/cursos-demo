@@ -8,10 +8,10 @@ class Database
     public static function getConnection(): PDO
     {
         if (self::$instance === null) {
-            $host = 'localhost';
+            $host = 'localhost:3306';
             $db   = 'cursosdb';
-            $user = 'root';
-            $pass = '';
+            $user = 'jose';
+            $pass = 'jose';
             $charset = 'utf8mb4';
 
             $dsn = "mysql:host={$host};dbname={$db};charset={$charset}";
